@@ -22,17 +22,23 @@ Built with the tools and technologies:
 
 ## Overview
 
-Keyword-Extractor is a versatile developer tool designed to extract relevant keywords from a variety of document sources, including PDFs, web pages, and files. It leverages language models and text processing techniques to facilitate efficient content indexing, search, and retrieval within larger systems.
+🔧 Comment Generator
+Comment Generator is an intelligent developer tool crafted to automatically generate meaningful comments for code snippets. It streamlines the process of code documentation, making source files more readable and maintainable with the help of language models.
 
-### Why Keyword-Extractor?
+### Why Comment Generator?
+This project addresses the often-overlooked need for quality code documentation by using AI to simplify and automate the commenting process. The core features include:
 
-This project aims to simplify the process of analyzing unstructured textual data. The core features include:
+✨ Code Input Flexibility: Accepts raw code, file paths (.py, .ipynb), or direct prompts for comment generation.
 
-* ✨ **Multi-source ingestion:** Seamlessly process diverse document formats for comprehensive keyword extraction.
-* 🔍 **Accurate keyword identification:** Utilizes advanced language models to generate meaningful keywords.
-* 📊 **Supports content organization:** Enhances search, categorization, and information retrieval tasks.
-* ⚙️ **Integrates easily:** Serves as a foundational component for building smarter text analysis workflows.
-* 🚀 **Prototyping environment:** Provides an exploratory notebook for testing and refining extraction strategies.
+🧠 LLM-Powered Explanations: Leverages powerful language models (OpenAI GPT-4) to generate human-like and context-aware code comments.
+
+💡 Interactive Prompting: Accepts real-time input, making it an excellent tool for exploratory use or batch processing.
+
+📂 Multi-file Support: Designed to work with standalone files and interactive notebooks, enhancing productivity across workflows.
+
+⚙️ Plug & Play Interface: Easily integrated into developer tools or pipelines, helping teams maintain clean and understandable codebases.
+
+🧪 Prototyping-Ready: The notebook format provides an interactive environment for experimentation and improvement.
 
 ---
 
@@ -47,23 +53,23 @@ This project requires the following dependencies:
 
 ### Installation
 
-Build Keyword-Extractor from the source and install dependencies:
+Build Comment-Generator from the source and install dependencies:
 
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/Bhavanam-Gireesh-Reddy/Keyword-Extractor.git
+    git clone https://github.com/Bhavanam-Gireesh-Reddy/Comment-Generator.git
     ```
     
 2.  Navigate to the project directory:
 
     ```bash
-    cd Keyword-Extractor
+    cd Comment-Generator
     ```
 3.  Install the dependencies:
 
     ```bash
-    pip install langchain-groq langchain_community requests chromadb langchain-chroma faiss-cpu sentence-transformers pypdf unstructured "unstructured[pdf]" "unstructured[docx]" python-dotenv
+    pip install langchain-groq langchain_community langchain-core python-dotenv
     ```
 
 ## Usage
@@ -71,6 +77,6 @@ Build Keyword-Extractor from the source and install dependencies:
 Run the project with:
 
 ```bash
-python Keyword-Extractor
+python Comment-Generator1.py
 ```
 ---
