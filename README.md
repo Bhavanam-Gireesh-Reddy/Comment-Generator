@@ -22,7 +22,7 @@ Built with the tools and technologies:
 
 ## Overview
 
-🔧 Comment Generator
+🔧
 Comment Generator is an intelligent developer tool crafted to automatically generate meaningful comments for code snippets. It streamlines the process of code documentation, making source files more readable and maintainable with the help of language models.
 
 ### Why Comment Generator?
